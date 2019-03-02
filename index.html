@@ -1,13 +1,129 @@
 <html>
 <head>
+<style>
+  .center {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  ;
+  
+}
+
+.divinput {display: block;
+text-align:center;
+margin: auto;
+  width: 100%;
+padding: 10px;}
+
+.button1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 10%;
+  opacity: 0.6;}
+
+.button2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 10%;
+  opacity: 0.6;
+}
+
+.divbutton {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+  .button1:hover {
+    opacity:1;
+    cursor: pointer;
+  
+  }
+  
+  .button2:hover {
+    opacity:1;
+    cursor: pointer;
+  }
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.active:hover{
+  text-decoration: underline;
+}
+  
+  footer {
+   position:absolute;
+    background-color:#f3f3f3;
+    border-style: groove;
+  border-width: 1px;
+    border-radius: 3px;
+   bottom:0;
+   width:100%;}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">About</a></li>
+  <li><a href="#news">Store</a></li>
+  
+  <li style="float:right"><a class="active" href="#about">Account</a></li>
+  <li style="float:right"><a class="active" href="#about">Notifications</a></li>
+  <li style="float:right"><a class="active" href="#about">Apps</a></li>
+  <li style="float:right"><a class="active" href="#about">Images</a></li>
+  <li style="float:right"><a class="active" href="#about">Gmail</a></li>
+</ul>
+
+</body>
+  
+  <body>
 <div id="Google Logo">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" align="center";></img>
+    <a href="google.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google Logo" class="center" height="170" width="500" title="Google"></a></img>
 </div>
 </head>
+<div id="input" class="divinput">
+<input size="70"></input>
+</div>
+<div id="button" class="divbutton">
+<button class="button1">Google Search</button> <button class="button2">I'm Feeling Lucky</button>
+</div>
+</body>
 
-<input><input> <button></button></button>
 
 
 
-
+<div id="footer">
+  <footer>
+<ul style=display: block;>
+  <li><a href="#home">Advertising</a></li>
+  <li><a href="#news">Business</a></li>
+  
+  <li style="float:right"><a class="active" href="#about">Settings</a></li>
+  <li style="float:right"><a class="active" href="#about">Terms</a></li>
+  <li style="float:right"><a class="active" href="#about">Privacy</a></li>
+</ul>
+  </footer>
 </html>
